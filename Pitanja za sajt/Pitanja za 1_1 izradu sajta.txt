@@ -1,0 +1,93 @@
+DEDALIO – PITANJA PRE IZRADE SAJTA (1:1 PO DIZAJNU)
+======================================================
+
+1. DIZAJN / IZVORNI FAJL
+-------------------------
+- Da li postoji Figma/Sketch/XD fajl dizajna, ili samo flattened PNG
+  (dedalio_full_webpage_logo_corrected.png)?
+- Da li postoje dizajni za tablet i mobilni prikaz, ili samo desktop (1800px)?
+- Da li postoje stanja komponenti (hover, active, focus, disabled) za dugmad,
+  tabove i kartice?
+
+2. TIPOGRAFIJA
+---------------
+- Koji font se koristi za naslove (headline)?
+- Koji font se koristi za telo teksta (body)?
+- Koje su tačne veličine i debljine (weights) fontova po sekcijama?
+- Da li su fontovi licencirani za web (Google Fonts, Adobe Fonts, kupljena
+  licenca) ili treba zameniti sličnim besplatnim fontom?
+
+3. BOJE
+--------
+- Da li postoji zvanična paleta boja (hex kodovi) za: primarnu plavu, tamno
+  navy pozadinu, sive tonove, gradijente u hero sekciji?
+- Da li se boje razlikuju za light/dark sekcije sajta (npr. "Male stvari"
+  sekcija je tamna) - postoji li i dark mode za ceo sajt ili samo pojedine
+  sekcije?
+
+4. SLIKE I PRIKAZI PROIZVODA
+------------------------------
+- Da li postoje pojedinačni fajlovi (ne isečci iz flattened PNG-a) za sve
+  prikaze aplikacije/dashboarda koji se pojavljuju u hero i modul sekcijama?
+- Da li su to statičke slike, SVG ili treba da budu live komponente
+  (kod umesto slike)?
+- Da li postoje fotografije za testimonijale (Vladimir Jović, Marija
+  Trišović, Aleksandar Kovjanić)? Proveriti 57 slika ubačenih u docx.
+- Za sekcije koje pominju "Video prikaz" / "animacija" - da li postoje
+  gotovi video/GIF fajlovi, ili treba da se snime/naprave, ili se
+  zamenjuju statičnom slikom?
+- Da li hero sekcija ima animiranu pozadinu (linije/talasi) ili je statična?
+
+5. SADRŽAJ / KOPI
+-------------------
+- Dokument "Dedalio website sadrzaj sa slikama.docx" je označen kao
+  "Predlog sadržaja" (predlog, ne finalna verzija) - da li je tekst
+  finalan ili čeka odobrenje/izmene?
+- Da li sajt treba samo na srpskom, ili i na engleskom (i18n)?
+- Sadržaj za footer stranice koje trenutno nemaju tekst: /privacy,
+  /terms, /legal, /kontakt - ko piše taj sadržaj?
+
+6. CTA / FUNKCIONALNOST
+--------------------------
+- Kuda vodi dugme "Zakažite demo" - eksterni kalendar (Calendly i sl.),
+  forma na sajtu, mejl?
+- Da li je forma za kontakt/demo potrebna, i koja polja treba da sadrži?
+- Kako funkcionišu tabovi "Direktori / Projektni menadžeri / Zaposleni /
+  Finansije / HR i administracija" - klik menja sadržaj kartice, da li
+  ima animaciju prelaza?
+- Da li su testimonijali i "changelog" sekcija karusel (automatski ili
+  ručno prevlačenje strelicama)?
+- Da li "Login" dugme u headeru vodi na postojeću aplikaciju (link) ili
+  još ne postoji?
+
+7. TEHNIČKI ZAHTEVI
+---------------------
+- Koji stek/frejmvork se koristi za sajt (statički HTML, Next.js,
+  Webflow, WordPress...)?
+- Da li postoji hosting/domen već registrovan?
+- Da li je potreban CMS (za buduće izmene teksta bez developera) ili je
+  sadržaj fiksan u kodu?
+- SEO zahtevi (meta opisi, OG slike, sitemap)?
+- Analitika (Google Analytics, Plausible i sl.)?
+- Favicon - koristi se avatar iz foldera "DEDALiO avatar", koja boja
+  varijanta?
+
+8. BREND / LOGO
+-----------------
+- Koja varijanta logotipa i avatara se koristi gde (npr. plava verzija
+  na svetloj pozadini, bela na tamnoj)?
+- Da li postoji brand guideline dokument (razmak oko loga, minimalna
+  veličina, zabranjene upotrebe)?
+
+9. STATISTIKA / BROJKE
+-------------------------
+- Brojke u sekciji "Rezultati" (1.000.000+ sati, 200+ projekata, 500+
+  ugovora, 1000+ računa) - da li se ažuriraju ručno ili treba da budu
+  povezane sa realnim podacima/API-jem?
+
+10. PRAVNI / OSTALO
+----------------------
+- Da li su testimonijali odobreni za javnu objavu (saglasnost imenovanih
+  osoba i kompanija)?
+- Da li je potrebna cookie/GDPR saglasnost (banner) s obzirom na Privacy
+  Policy link u footeru?
